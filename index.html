@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CollegePicker</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <nav>
+                <div class="logo">CollegePicker</div>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="filter.html">Filter Selection</a></li>
+                    <li><a href="#">Results</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <section class="welcome-section">
+                <h1>Welcome to CollegePicker</h1>
+                <p>Find the perfect college that fits your needs and preferences.</p>
+                <button onclick="startFiltering()">Start Filtering Colleges</button>
+            </section>
+        </main>
+        <footer>
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>CollegePicker</h3>
+                    <p>Helping you find the best college options.</p>
+                </div>
+                <div class="footer-section">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="filter.html">Filter Selection</a></li>
+                        <li><a href="#">Results</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Contact Us</h3>
+                    <p>Email: support@collegepicker.com</p>
+                    <p>Phone: (123) 456-7890</p>
+                </div>
+            </div>
+        </footer>
+    </div>
+    <script>
+        function startFiltering() {
+            window.location.href = 'filter.html';
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CollegePicker - Filter Selection</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <nav>
+                <div class="logo">CollegePicker</div>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="filter.html">Filter Selection</a></li>
+                    <li><a href="#">Results</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <section class="filter-section">
+                <h2>Filter Selection</h2>
+                <form>
+                    <div class="form-group">
+                        <label for="locations">Preferred Locations</label>
+                        <input type="text" id="locations" name="locations" placeholder="Enter locations">
+                    </div>
+                    <div class="form-group">
+                        <label for="distance">Distance</label>
+                        <input type="number" id="distance" name="distance" value="138">
+                    </div>
+                    <div class="form-group">
+                        <label for="fee">Fee Range</label>
+                        <input type="range" id="fee" name="fee" min="0" max="100" value="50">
+                    </div>
+                    <div class="form-group">
+                        <label for="courses">Available Courses</label>
+                        <input type="text" id="courses" name="courses" placeholder="Enter courses">
+                    </div>
+                    <div class="form-group">
+                        <label for="rank">Rank</label>
+                        <input type="number" id="rank" name="rank" value="138">
+                    </div>
+                    <div class="form-group">
+                        <label for="criteria1">Criteria 1</label>
+                        <input type="text" id="criteria1" name="criteria1" placeholder="Enter criteria">
+                    </div>
+                    <div class="form-group">
+                        <label for="criteria2">Criteria 2</label>
+                        <input type="text" id="criteria2" name="criteria2" placeholder="Enter criteria">
+                    </div>
+                    <div class="form-group">
+                        <label for="criteria3">Criteria 3</label>
+                        <input type="text" id="criteria3" name="criteria3" placeholder="Enter criteria">
+                    </div>
+                    <button type="submit">Apply Filters</button>
+                </form>
+            </section>
+        </main>
+        <footer>
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>CollegePicker</h3>
+                    <p>123 College St, Education City, ED 12345</p>
+                </div>
+                <div class="footer-section">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="filter.html">Filter Selection</a></li>
+                        <li><a href="#">Results</a></li>
+                    </ul>
+                </div>
+            </div>
+        </footer>
+    </div>
+</body>
+</html>
